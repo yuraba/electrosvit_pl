@@ -1,0 +1,113 @@
+.team-carousel {
+    position: relative;
+    display: flex;
+    width: 100%;
+    max-width: 680px;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 34px;
+
+    &__arrow {
+        cursor: pointer;
+        flex-shrink: 0;
+        color: var(--green-color);
+    }
+
+    &__item {
+        width: 100%;
+        max-width: 455px;
+        margin: auto;
+    }
+
+    &__image {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        width: 100%;
+        max-width: 364px;
+        height: 100%;
+        max-height: 364px;
+        background: white;
+        border-radius: 200px;
+        aspect-ratio: 1/1;
+    }
+
+    &__name {
+        display: block;
+        margin-top: 16px;
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: 700;
+    }
+
+    &__description {
+        margin-top: 8px;
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 500;
+    }
+
+    &__circles {
+        display: flex;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%);
+    }
+}
+
+@media (--viewport-sm) {
+    .team-carousel {
+        position: relative;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        padding-bottom: 34px;
+
+        &__arrow {
+            cursor: pointer;
+            flex-shrink: 0;
+            color: var(--green-color);
+            width: 64px;
+            height: 64px;
+        }
+
+        &__item {
+            // width: 455px;
+            margin: auto;
+        }
+
+        &__image {
+            display: flex;
+            justify-content: center;
+            margin: auto;
+            // width: 250px;
+            // height: 250px;
+            background: white;
+            border-radius: 200px;
+        }
+
+        &__name {
+            display: block;
+            margin-top: 16px;
+            font-size: 20px;
+            line-height: 24px;
+            font-weight: 700;
+        }
+
+        &__description {
+            margin-top: 8px;
+            font-size: 18px;
+            line-height: 24px;
+            font-weight: 500;
+        }
+
+        &__circles {
+            display: flex;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translate(-50%);
+        }
+    }
+}

@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Sergiy Bykov",
+        "position": "CEO, współzałożyciel, 20+ lat doświadczenia w energetyce",
+        "image": "/CEO.svg"
+    },
+    {
+        "name": "Oleg Neshcheret",
+        "position": "Dyrektor ds. Marketingu i Sprzedaży, specjalista w rozwoju rynków zagranicznych",
+        "image": "/marketing_director.svg"
+    },
+    {
+        "name": "Oleksandr Kontrakevych",
+        "position": "Dyrektor Finansowy, ekspert w zarządzaniu finansami i strukturach inwestycyjnych",
+        "image": "/finance_director.svg"
+    },
+    {
+        "name": "Andrii Shtohryn",
+        "position": "Dyrektor ds. Produkcji i Serwisu, odpowiedzialny za jakość i innowacje technologiczne",
+        "image": "/product_director.svg"
+    },
+    {
+        "name": "Yurii Semkovych",
+        "position": "Kierownik Działu Produkcji, 15+ lat praktyki w projektach elektroenergetycznych",
+        "image": "/production_manager.svg"
+    },
+    {
+        "name": "Natalia Krasiuk",
+        "position": "Menedżer ds. Marketingu i Sprzedaży, wspiera klientów w Polsce i Europie",
+        "image": "/marketing_manager.svg"
+    }
+]

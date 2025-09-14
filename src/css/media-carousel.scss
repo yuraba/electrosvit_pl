@@ -1,0 +1,44 @@
+.media-carousel {
+    align-items: center;
+    border-radius: var(--radius);
+
+    &__arrow {
+        cursor: pointer;
+        color: var(--green-color) !important;
+        width: 64px;
+        height: 64px;
+
+        &.prev {
+            transform: matrix(1, 0, 0, 1, -64, -32);
+        }
+
+        &.next {
+            transform: matrix(1, 0, 0, 1, 64, -32);
+        }
+    }
+
+    &__thumbnails {
+        padding: 0 60px;
+        margin-top: 10px;
+    }
+
+    &__thumbnails-item {
+        padding: 2px;
+        border-radius: var(--radius-sm);
+        aspect-ratio: 2/1;
+        object-fit: cover;
+    }
+
+    &__dots {
+        transform: translateY(10px);
+        & li button::before {
+            color: white !important;
+            font-size: 18px;
+        }
+
+        & .slick-active button::before {
+            color: var(--green-color) !important;
+            font-size: 18px;
+        }
+    }
+}

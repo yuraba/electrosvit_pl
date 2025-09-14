@@ -1,0 +1,63 @@
+.realizations {
+    margin-top: 64px;
+    padding: 0 220px 136px 220px;
+
+    &__filter {
+        margin-top: 16px;
+        & button {
+            width: fit-content;
+            margin: 0 auto;
+            border: 1px solid var(--green-color);
+            & span {
+                color: var(--green-color);
+            }
+        }
+    }
+
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 36px;
+        margin-top: 28px;
+    }
+
+    & .product-card {
+        padding: 12px;
+    }
+}
+
+@media (--viewport-2xl) {
+    .realizations {
+        padding: 0 160px 136px;
+    }
+}
+
+@media (--viewport-xl) {
+    .realizations {
+        padding: 0 76px 136px;
+    }
+}
+
+@media (--viewport-lg) {
+    .realizations {
+        &__list {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 36px;
+        }
+    }
+}
+
+@media (--viewport-md) {
+    .realizations {
+        &__list {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+}
+
+@media (--viewport-sm) {
+    .realizations {
+        margin-top: 24px;
+        padding: 0 24px 50px;
+    }
+}

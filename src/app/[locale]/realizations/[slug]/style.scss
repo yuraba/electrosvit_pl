@@ -1,0 +1,44 @@
+.realization {
+    padding: 80px 76px;
+    display: flex;
+    flex-direction: column;
+
+    &__badge {
+        display: block;
+        width: fit-content;
+        margin-top: 16px;
+        padding: 6px 15px;
+        color: var(--green-color);
+        border: 1px solid var(--green-color);
+        border-color: var(--green-color);
+        border-radius: var(--radius);
+        font-size: 14px;
+        line-height: 20px;
+        background: white;
+    }
+
+    &__carousel {
+        margin: 32px auto 0;
+        width: 840px;
+    }
+}
+
+@media (--viewport-lg) {
+    .realization {
+        &__carousel {
+            width: 100%;
+        }
+    }
+}
+
+@media (--viewport-md) {
+    .realization {
+        padding: 40px;
+    }
+}
+
+@media (--viewport-sm) {
+    .realization {
+        padding: 20px;
+    }
+}

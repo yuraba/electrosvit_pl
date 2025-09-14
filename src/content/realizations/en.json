@@ -1,0 +1,127 @@
+[
+    {
+        "name": "LVS for KERNEL company",
+        "image": "/realizations/SN_36kV.svg",
+        "badge": "MV switchgears up to 36kV",
+        "slug": "lvs",
+        "imagesList": [
+            "/realizations/LVS/1.png",
+            "/realizations/LVS/2.png",
+            "/realizations/LVS/3.png",
+            "/realizations/LVS/4.png",
+            "/realizations/LVS/5.png",
+            "/realizations/LVS/6.png",
+            "/realizations/LVS/7.png"
+        ]
+    },
+    {
+        "name": "Reconstruction of MV switchgear (GALSET 10kV)",
+        "image": "/realizations/SN_GALSET_10kV.svg",
+        "badge": "MV switchgears up to 36kV",
+        "slug": "rekonstrukcja-galset",
+        "imagesList": [
+            "/realizations/reconstruction_galset/1.png",
+            "/realizations/reconstruction_galset/2.png",
+            "/realizations/reconstruction_galset/3.png",
+            "/realizations/reconstruction_galset/4.png",
+            "/realizations/reconstruction_galset/5.png",
+            "/realizations/reconstruction_galset/6.png"
+        ]
+    },
+    {
+        "name": "GALSET 10kV",
+        "image": "/realizations/GALSET_10kV.svg",
+        "badge": "MV switchgears up to 36kV",
+        "slug": "galset",
+        "imagesList": [
+            "/realizations/galset/1.png",
+            "/realizations/galset/2.png",
+            "/realizations/galset/3.png",
+            "/realizations/galset/4.png",
+            "/realizations/galset/5.png",
+            "/realizations/galset/6.png",
+            "/realizations/galset/7.png"
+        ]
+    },
+    {
+        "name": "ORBITA Reconstruction",
+        "image": "/realizations/ORBITA_Rekonstrukcja.svg",
+        "badge": "Protection automation",
+        "slug": "orbita",
+        "imagesList": [
+            "/realizations/orbita/1.png",
+            "/realizations/orbita/2.png",
+            "/realizations/orbita/3.png",
+            "/realizations/orbita/4.png",
+            "/realizations/orbita/5.png",
+            "/realizations/orbita/6.png",
+            "/realizations/orbita/7.png",
+            "/realizations/orbita/8.png",
+            "/realizations/orbita/9.png",
+            "/realizations/orbita/10.png",
+            "/realizations/orbita/11.png",
+            "/realizations/orbita/12.png",
+            "/realizations/orbita/13.png",
+            "/realizations/orbita/14.png",
+            "/realizations/orbita/15.png"
+        ]
+    },
+    {
+        "name": "Reconstruction Zavallya",
+        "image": "/realizations/Rekonstrukcja_Zavallya.svg",
+        "badge": "Protection automation",
+        "slug": "zavallya",
+        "imagesList": [
+            "/realizations/zavallya/1.png",
+            "/realizations/zavallya/2.png",
+            "/realizations/zavallya/3.png",
+            "/realizations/zavallya/4.png",
+            "/realizations/zavallya/5.png",
+            "/realizations/zavallya/6.png",
+            "/realizations/zavallya/7.png"
+        ]
+    },
+    {
+        "name": "GALBOX with equipment for VENZA group",
+        "image": "/realizations/GALBOX_VENZA.svg",
+        "badge": "GALBOX – concrete transformer stations, distribution stations and cable connectors",
+        "slug": "galbox-venza",
+        "imagesList": [
+            "/realizations/galbox_venza/1.png",
+            "/realizations/galbox_venza/2.png",
+            "/realizations/galbox_venza/3.png",
+            "/realizations/galbox_venza/4.png",
+            "/realizations/galbox_venza/5.png",
+            "/realizations/galbox_venza/6.png"
+        ]
+    },
+    {
+        "name": "GALSET 10kV – Uzhorod",
+        "image": "/realizations/GALSET_10kV_Uzhorod.svg",
+        "badge": "MV switchgears up to 36kV",
+        "slug": "galset-uzhorod",
+        "imagesList": [
+            "/realizations/galset_uzhorod/1.png",
+            "/realizations/galset_uzhorod/2.png",
+            "/realizations/galset_uzhorod/3.png",
+            "/realizations/galset_uzhorod/4.png",
+            "/realizations/galset_uzhorod/5.png",
+            "/realizations/galset_uzhorod/6.png"
+        ]
+    },
+    {
+        "name": "GALSET 10kV for Zakarpattya",
+        "image": "/realizations/GALSET_10kV_Zakarpattya.svg",
+        "badge": "MV switchgears up to 36kV",
+        "slug": "galset-zakarpattya",
+        "imagesList": [
+            "/realizations/galset_zakarpattya/1.png",
+            "/realizations/galset_zakarpattya/2.png",
+            "/realizations/galset_zakarpattya/3.png",
+            "/realizations/galset_zakarpattya/4.png",
+            "/realizations/galset_zakarpattya/5.png",
+            "/realizations/galset_zakarpattya/6.png",
+            "/realizations/galset_zakarpattya/7.png"
+        ]
+    }
+]

@@ -1,0 +1,39 @@
+.mobile-menu {
+    padding-top: 20px;
+    box-sizing: border-box;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 100vw;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+    background-color: white;
+    z-index: 100;
+    transition: 0.4s;
+
+    &__close {
+        margin-left: auto;
+    }
+
+    &__list {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 80vw;
+        margin-top: 50px;
+        font-size: 1px;
+    }
+    
+    &__list-item {
+        font-size: 18px;
+        width: 100%;
+    }
+    
+    
+    &--opened {
+        padding: 20px;
+        left: 0;
+    }
+}

@@ -1,0 +1,93 @@
+[
+    {
+        "name": "Low Voltage Switchgears – LVS, COMBIFLEX, BLOKSET",
+        "description": "ELEKTROSVIT manufactures low-voltage switchgears in accordance with electrical documentation, dimensions, and customer requirements. Our solutions cover the entire process – from design, through production, to installation. This way, we offer tailor-made switchgears that ensure reliable operation and optimal investment cost. <br/><br/><strong>LVS – distribution equipment</strong> <br/> Compact and economical busbar fuse switchgears, ideal for urban power networks: <br/> • significant space savings (dimensions reduced by up to 50%), <br/> • reliability thanks to the use of equipment from APATOR, Pronutec, Wöhner, and other proven manufacturers, <br/> • copper busbars, possibility of connecting Cu and Al cables with large cross-sections. <br/><br/><strong>COMBIFLEX – universal LV switchgears</strong> <br/>Flexible solution for currents up to 4000 A, designed with high reliability in mind: <br/> • selection of protective and distribution devices from renowned manufacturers, <br/> • possibility of using copper or aluminum busbars, <br/> • steel structure (blackened/galvanized) with powder coating, <br/> • vertical and horizontal busbar system ensuring even current distribution. <br/><br/><strong>BLOKSET – modular system</strong> <br/> • the most advanced LV switchgear system, for currents up to 7000 A: <br/> • modular design allows configuration from simple to the most complex systems, <br/> • full compatibility with Schneider Electric equipment, <br/> • compliance with PN-EN 60439-1 standard, confirming the highest level of safety and quality.",
+        "image": "/products/nn_switchgears.svg",
+        "badge": "Products",
+        "slug": "nn",
+        "imagesList": [
+            "/products/nn_switchgears/1.png",
+            "/products/nn_switchgears/2.png",
+            "/products/nn_switchgears/3.png",
+            "/products/nn_switchgears/4.png",
+            "/products/nn_switchgears/5.png",
+            "/products/nn_switchgears/6.png",
+            "/products/nn_switchgears/7.png",
+            "/products/nn_switchgears/8.png",
+            "/products/nn_switchgears/9.png",
+            "/products/nn_switchgears/10.png"
+        ]
+    },
+    {
+        "name": "GALBOX – concrete transformer stations, distribution stations and cable connectors",
+        "description": "GALBOX transformer stations are prefabricated solutions in concrete enclosures, designed and manufactured according to individual customer requirements. Based on electrical diagrams, expected dimensions, and project specifics, we deliver complete equipment – from design, through production, to installation. <br/><br/>GALBOX stations have undergone rigorous tests at an independent ILAC network laboratory for compliance with IEC standards. This includes arc-resistance tests for accessibility A and B 20kA/1s. These are confirmed by certificates issued by independent certification bodies. <br/><br/>GALBOX enclosures are made of top-quality concrete, class C30/C37, using modern technologies, which guarantees: <br/>  • high mechanical strength and resistance to weather conditions, <br/>  • complete operational safety, <br/>  • all elements made of non-flammable materials. <br/><br/><strong>Customer benefits:</strong> <br/>  • shorter implementation time and lower costs thanks to delivery of a ready-to-use product, <br/>  • space savings due to optimized dimensions – particularly important in modern urban planning, <br/>  • a wide selection of finishes and colors allows the station to harmoniously blend with the surroundings, <br/>  • in-house production of aluminum or galvanized/powder-coated steel joinery ensures corrosion resistance;  <br/>  • unique technology shortens production and delivery time, <br/>  • easier acceptance and commissioning of the installation. <br/><br/>Two types of GALBOX: <br/><br/><strong>STANDARD</strong> – structure composed of basement, body, and roof, <br/><br/><strong>COMPACT</strong> – body cast together with basement and roof. <br/><br/>Both types are available in versions with operation from inside or outside, allowing adaptation of the station to project specifics and operator requirements.",
+        "image": "/products/GALBOX.svg",
+        "badge": "Products",
+        "slug": "galbox",
+        "imagesList": [
+            "/products/galbox/1.png",
+            "/products/galbox/2.png",
+            "/products/galbox/3.png",
+            "/products/galbox/4.png",
+            "/products/galbox/5.png",
+            "/products/galbox/6.png",
+            "/products/galbox/7.png",
+            "/products/galbox/8.png",
+            "/products/galbox/9.png",
+            "/products/galbox/10.png",
+            "/products/galbox/11.png",
+            "/products/galbox/12.png",
+            "/products/galbox/13.png",
+            "/products/galbox/14.png",
+            "/products/galbox/15.png",
+            "/products/galbox/16.png",
+            "/products/galbox/17.png",
+            "/products/galbox/18.png"
+        ]
+    },
+    {
+        "name": "Medium Voltage Switchgears up to 36 kV – GALFIX and GALSET",
+        "description": "ELEKTROSVIT manufactures medium voltage switchgears up to 36 kV, covering a full range of functional fields to create any configuration: GALFIX (secondary energy distribution) and GALSET (primary energy distribution). Our solutions are based on electrical documentation and the individual needs of the customer.<br/> <br/> ELEKTROSVIT switchgears are made without SF₆ gas, making them environmentally friendly and compliant with the latest trends in power engineering. With a full scope of services – from design, through production, to installation – we offer optimal, tailor-made technical solutions.<br/> <br/> Each field undergoes quality control at all stages of production, ensuring reliability and operational safety.<br/> <br/> <strong>GALFIX</strong><br/>  • full range of functional fields for voltages up to 24 kV and currents up to 630 A, short-circuit current and arc-resistance 20kA/1s AFL<br/>  • equipped with vacuum circuit breakers from leading global manufacturers,<br/>  • easy access to protection and automation terminal strips, enabling simple integration into monitoring and control systems.<br/>  • tested in an independent, accredited ILAC network laboratory, confirmed by certification from a Polish independent certifying body<br/> <br/> <strong>GALSET</strong><br/>  • fields with withdrawable circuit breaker for voltages up to 36 kV and currents up to 3150 A,<br/>  • innovative motor-driven withdrawal mechanism – remote operation possible,<br/>  • structure made of high-quality galvanized steel, resistant to corrosion,",
+        "image": "/products/sn_switchgears.svg",
+        "badge": "Products",
+        "slug": "sn",
+        "imagesList": [
+            "/products/sn_switchgears/1.png",
+            "/products/sn_switchgears/2.png",
+            "/products/sn_switchgears/3.png",
+            "/products/sn_switchgears/4.png",
+            "/products/sn_switchgears/5.png",
+            "/products/sn_switchgears/6.png",
+            "/products/sn_switchgears/7.png",
+            "/products/sn_switchgears/8.png",
+            "/products/sn_switchgears/9.png",
+            "/products/sn_switchgears/10.png",
+            "/products/sn_switchgears/11.png",
+            "/products/sn_switchgears/12.png",
+            "/products/sn_switchgears/13.png",
+            "/products/sn_switchgears/14.png",
+            "/products/sn_switchgears/15.png",
+            "/products/sn_switchgears/16.png",
+            "/products/sn_switchgears/17.png",
+            "/products/sn_switchgears/18.png"
+        ]
+    },
+    {
+        "name": "GALFRAME – metal transformer stations and distribution stations",
+        "description": "GALBOX transformer stations are prefabricated solutions in concrete enclosures, designed and manufactured according to individual customer requirements. Based on electrical diagrams, expected dimensions, and project specifics, we deliver complete equipment – from design, through production, to installation. GALBOX stations have undergone rigorous tests at an independent ILAC network laboratory for compliance with IEC standards. This includes arc-resistance tests for accessibility A and B 20kA/1s. These are confirmed by certificates issued by independent certification bodies. <br/> <br/> GALBOX enclosures are made of top-quality concrete, class C30/C37, using modern technologies, which guarantees: <br/> • high mechanical strength and resistance to weather conditions, <br/>  • complete operational safety, <br/>  • all elements made of non-flammable materials. <br/><br/><strong>Customer benefits:</strong> <br/>  • shorter implementation time and lower costs thanks to delivery of a ready-to-use product, <br/>  • space savings due to optimized dimensions – particularly important in modern urban planning, <br/>  • a wide selection of finishes and colors allows the station to harmoniously blend with the surroundings, <br/>  • in-house production of aluminum or galvanized/powder-coated steel joinery ensures corrosion resistance;  <br/>  • unique technology shortens production and delivery time, <br/>  • easier acceptance and commissioning of the installation. <br/><br/><strong>Two types of GALBOX:</strong> <br/> STANDARD – structure composed of basement, body, and roof, <br/> COMPACT – body cast together with basement and roof. <br/> Both types are available in versions with operation from inside or outside, allowing adaptation of the station to project specifics and operator requirements.",
+        "image": "/products/GALFRAME.svg",
+        "badge": "Products",
+        "slug": "galframe",
+        "imagesList": [
+            "/products/galframe/1.png",
+            "/products/galframe/2.png",
+            "/products/galframe/3.png",
+            "/products/galframe/4.png",
+            "/products/galframe/5.png",
+            "/products/galframe/6.png",
+            "/products/galframe/7.png",
+            "/products/galframe/8.png",
+            "/products/galframe/9.png"
+        ]
+    }
+]

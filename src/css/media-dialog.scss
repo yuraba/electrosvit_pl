@@ -1,0 +1,12 @@
+.media-dialog {
+    height: 80%;
+    min-width: 90%;
+    max-width: 90%;
+    border-radius: 24px;
+    overflow: hidden;
+
+    & img {
+        object-fit: cover;
+
+    }
+}

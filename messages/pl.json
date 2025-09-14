@@ -1,0 +1,88 @@
+{
+    "Header": {
+        "aboutUs": "O nas",
+        "products": "Produkty",
+        "contact": "Kontakt",
+        "realizations": "Realizacje",
+        "pl": "Polski",
+        "en": "Аngielski"
+    },
+    "MainPage": {
+        "title": "ELEKTROSVIT",
+        "subtitle": "TO POŁĄCZENIE DOŚWIADCZENIA I INNOWACJI W DYSTRYBUCJI ENERGII ELEKTRYCZNEJ",
+        "description": "Wiodący ukraiński producent stacji <br/> transformatorowych oraz rozdzielnic SN i nN. <br/> Pełen zakres usług - od zaprojektowania do instalacji.",
+        "seeMore": "Zobacz więcej",
+        "missionTitle": "MISJA ELEKTROSVIT",
+        "missionDescription": "Zapewniamy przepływ energii dla równoważonej przyszłości. Zespół napędzany innowacjami!",
+        "ourProducts": "NASZE PRODUKTY I USŁUGI",
+        "products": "PRODUKTY",
+        "ourTeam": "NASZ ZESPÓŁ",
+        "teamGoal": "Siłą ELEKTROSVIT jest doświadczona kadra menedżerska, która od lat rozwija energetykę     w Europie i poza jej granicami:",
+        "ourTeamPoland": "Zespół ELEKTROSVIT w Polsce:",
+        "ourStrength": "NASI PARTNERZY SĄ NASZĄ SIŁĄ",
+        "hero-banner": "/hero_pl.svg",
+        "partners-banner": "our-partners_pl.svg",
+        "contactTitle": "KONTAKT",
+        "contactSubtitle": "ELEKTROSVIT",
+        "contactSubtitleCrumbs": "Sp. z o.o.",
+        "linkedin": "https://www.linkedin.com/company/elektrosvit-pl/",
+        "facebook": "https://www.facebook.com/share/17Dn3nXgkA/?mibextid=wwXIfr",
+        "CEO": "Dyrektor Generalny",
+        "CEOinfo": "Piotr Podlaszewski <br/> Dyrektor Generalny ELEKTROSVIT Sp z o.o.",
+        "CEOmail": "piotr.podlaszewski@elektrosvit.pl",
+        "service": "Serwis wyposażenia",
+        "serviceMail": "serwis@elektrosvit.pl"
+    },
+    "AboutPage": {
+        "title": "O NAS",
+        "step_2002": "Powstaje spółka sprzedająca komponenty elektryczne",
+        "step_2003": "ELEKTOSVIT zostaje oficjalnym partnerem Schneider Electric. Start własnej produkcji.",
+        "step_2008": "Dostawa pierwszej stacji transformatorowej w obudowie betonowej",
+        "step_2012": "Stworzono pierwsze marki własne: GALSET i COMBIFLEX",
+        "step_2019": "Budowa najnowocześniejszej w Ukrainie fabryki rozdzielnic i stacji transformatorowych",
+        "descr_left_1": "ELEKTROSVIT – lider innowacyjnych rozwiązań elektroenergetycznych. Od ponad 20 lat dostarczamy urządzenia rozdzielcze i stacje transformatorowe, które gwarantują stabilny i bezpieczny przesył energii.",
+        "descr_left_2": "Jako generalny wykonawca prowadzimy inwestycje w energetyce dystrybucyjnej, fotowoltaice, przemyśle i infrastrukturze – od projektu, przez produkcję, po montaż.",
+        "descr_left_3": "Nasze systemy zarządzania jakością i środowiskiem uzyskały certyfikaty ISO 9001:2015 i ISO 14001:2015.",
+        "descr_right_1": "Jako pierwsi wprowadziliśmy na rynek ukraiński betonowe stacje transformatorowe, stając się niekwestionowanym liderem tego segmentu.",
+        "descr_right_2": "Z naszych produktów korzystają klienci w Polsce, Szwecji, Słowacji, Holandii, krajach Bałtyckich i Mołdawii.",
+        "descr_right_3": "Zrealizowaliśmy instalacje OZE o łącznej mocy ponad 2 GW – to dowód naszego doświadczenia i niezawodności naszych produktów. <br/> W Polsce pracuje już ponad 100 stacji transformatorowych naszej produkcji.",
+        "ourFactory": "NASZA FABRYKA"
+    },
+    "ProductsPage": {
+        "title": "PRODUKTY"
+    },
+    "RealizationsPage": {
+        "title": "REALIZACJE",
+        "filters": "Filtry"
+    },
+    "Features": {
+        "more": "więcej",
+        "search": "Szukaj",
+        "choose": "Adres",
+        "noResults": "Nie ma rezultatu",
+        "selectAll": "Wybierz wszystko",
+        "clear": "Do wyczyszczenia"
+    },
+    "Seo": {
+        "mainPage": {
+            "title": "ELEKTROSVIT - Rzetelny producent sprzętu elektrycznego i wykonawca EPC",
+            "description": "ELEKTROSVIT to zaufany producent i wykonawca EPC, dostarczający wysokiej jakości sprzęt elektryczny, specjalizujący się w stacjach transformatorowych, rozdzielnicach i projektach energii odnawialnej.",
+            "keywords": "ELEKTROSVIT, sprzęt elektryczny, wykonawca EPC, stacje transformatorowe, rozdzielnice, energia odnawialna, sieć dystrybucyjna, wysokiej jakości sprzęt"
+        },
+        "aboutPage": {
+            "title": "O ELEKTROSVIT - Wiodący producent sprzętu elektrycznego",
+            "description": "Poznaj ELEKTROSVIT - zaufanego dostawcę sprzętu elektrycznego i usług EPC. Z wieloletnim doświadczeniem, przewodzimy w stacjach transformatorowych, rozdzielnicach i rozwiązaniach z zakresu energii odnawialnej.",
+            "keywords": "ELEKTROSVIT, sprzęt elektryczny, o nas, stacje transformatorowe, rozdzielnice, energia odnawialna, usługi EPC, lider branży"
+        },
+        "realizationsPage": {
+            "title": "Projekty ELEKTROSVIT - Infrastruktura elektryczna i energia odnawialna",
+            "description": "Odkryj projekty ELEKTROSVIT, prezentujące doświadczenie w infrastrukturze elektrycznej, instalacjach odnawialnych źródeł energii i rozwiązaniach przemysłowych na całym świecie.",
+            "keywords": "projekty ELEKTROSVIT, infrastruktura elektryczna, energia odnawialna, rozwiązania przemysłowe, projekty globalne"
+        },
+        "productsPage": {
+            "title": "Produkty ELEKTROSVIT - Wysokiej jakości sprzęt elektryczny i rozdzielnice",
+            "description": "Przeglądaj ofertę produktów ELEKTROSVIT, oferującą sprzęt elektryczny najwyższej jakości, rozdzielnice i stacje transformatorowe do różnych zastosowań.",
+            "keywords": "produkty ELEKTROSVIT, sprzęt elektryczny, rozdzielnice, stacje transformatorowe, wysokiej jakości produkty"
+        }
+    }
+}

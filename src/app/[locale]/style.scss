@@ -1,0 +1,331 @@
+$mt: 120px;
+$spacing: 76px;
+
+.main-page {
+    padding-top: 86px;
+    padding-bottom: 42px;
+    padding-left: $spacing;
+    padding-right: $spacing;
+
+    & .hero-section {
+        display: flex;
+        gap: 40px;
+        padding-bottom: 50px;
+
+        &__text {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            flex-basis: 40%;
+        }
+
+        &__button {
+            font-size: 20px;
+            font-weight: 500;
+            padding: 8px 16px;
+            background: var(--green-color);
+            width: fit-content;
+        }
+
+        &__banner {
+            flex-basis: 60%;
+            flex-grow: 1;
+            border-radius: var(--radius);
+            overflow: hidden;
+
+            & img {
+                margin-left: auto;
+                border-radius: var(--radius);
+            }
+        }
+    }
+
+    & .mission-section {
+        margin-top: $mt;
+
+        &__text {
+            max-width: 490px;
+            margin: 0 auto;
+        }
+
+        &__banner {
+            margin-top: -70px;
+            margin-left: -$spacing;
+            margin-right: -$spacing;
+        }
+    }
+
+    & .products-section {
+        margin-top: $mt;
+
+        &__icon {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 24px;
+            background: white;
+            border-radius: var(--radius);
+            width: 100%;
+            max-width: 300px;
+            padding: 36px 0;
+            margin: 45px auto 0;
+        }
+    }
+
+    & .team-section {
+        margin-top: $mt;
+
+        &__text {
+            max-width: 470px;
+            margin: 0 auto;
+        }
+
+        &__carousel {
+            margin: 45px auto 0;
+        }
+    }
+
+    & .partners-section {
+        margin-top: $mt;
+
+        &__lists {
+            margin-top: 28px;
+            padding: 0 30px;
+            background: white;
+            border-radius: var(--radius);
+        }
+
+        &__lists ul {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        &__lists ul:first-of-type {
+            border-bottom: 1px solid var(--green-color);
+        }
+
+        &__logo {
+            position: relative;
+            border-radius: 6px;
+            width: 130px;
+            height: 130px;
+
+            & img {
+                object-fit: contain;
+            }
+        }
+    }
+
+    & .contacts-section {
+        margin-top: 100px;
+        padding: 64px 48px;
+        background: white;
+        border-radius: var(--radius);
+
+        &__content {
+            display: flex;
+            margin-top: 36px;
+        }
+
+        &__title {
+            font-family: 'Inter';
+            font-weight: 600;
+            font-size: 46px;
+            line-height: 54px;
+            color: var(--black-color);
+        }
+
+        &__subtitle {
+            display: inline-block;
+            font-family: 'Inter';
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 36px;
+            color: var(--green-color);
+        }
+
+        &__address {
+            flex-basis: 70%;
+        }
+
+        &__social {
+            display: flex;
+            gap: 15px;
+        }
+    }
+
+    & .footer {
+        margin-top: 84px;
+    }
+}
+
+@media (--viewport-lg) {
+    .main-page {
+        & .hero-section {
+            flex-direction: column-reverse;
+        }
+
+        & .mission-section {
+            margin-top: 50px;
+        }
+
+        & .contacts-section {
+            &__definition-list {
+                text-align: right;
+            }
+        }
+    }
+}
+
+@media (--viewport-md) {
+    $mt: 80px;
+    $spacing: 24px;
+
+    .main-page {
+        padding-top: $spacing;
+        padding-bottom: 42px;
+        padding-left: $spacing;
+        padding-right: $spacing;
+
+        & .hero-section {
+            display: flex;
+
+            gap: 24px;
+            padding-bottom: 0;
+
+            &__text {
+                display: flex;
+                flex-direction: column;
+                gap: 12px;
+                flex-basis: 40%;
+            }
+
+            &__button {
+                font-size: 20px;
+                font-weight: 500;
+                padding: 12px 16px;
+                background: var(--green-color);
+                border-radius: var(--radius-sm);
+                width: 100%;
+            }
+
+            &__banner {
+                border-radius: var(--radius-sm);
+
+                & img {
+                    border-radius: var(--radius-sm);
+                }
+            }
+        }
+
+        & .mission-section {
+            margin-top: $mt;
+
+            &__text {
+                text-align: center;
+            }
+
+            &__banner {
+                margin-top: -20px;
+                margin-left: -$spacing;
+                margin-right: -$spacing;
+            }
+        }
+
+        & .products-section {
+            margin-top: $mt;
+
+            &__icon {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 24px;
+                background: white;
+                border-radius: var(--radius);
+                padding: 36px 0;
+                margin: 24px auto 0;
+            }
+        }
+
+        & .team-section {
+            margin-top: $mt;
+
+            &__carousel {
+                margin-top: 24px;
+            }
+        }
+
+        & .partners-section {
+            margin-top: $mt;
+
+            &__lists {
+                margin-top: 28px;
+                padding: 0 15px;
+                background: white;
+                border-radius: var(--radius-sm);
+            }
+
+            &__lists ul {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+                flex-wrap: wrap;
+            }
+
+            &__lists ul:first-of-type {
+                border-bottom: 1px solid var(--green-color);
+            }
+
+            &__logo {
+                position: relative;
+                border-radius: 6px;
+                width: 90px;
+                height: 90px;
+
+                & img {
+                    object-fit: contain;
+                }
+            }
+        }
+
+        & .contacts-section {
+            padding: 16px;
+            background: white;
+            border-radius: var(--radius-sm);
+
+            &__content {
+                flex-direction: column;
+                margin-top: 12px;
+            }
+
+            &__definition-list {
+                margin-top: 36px;
+                text-align: right;
+            }
+
+            &__social {
+                display: flex;
+                gap: 15px;
+                margin-top: 36px;
+            }
+        }
+
+        & .footer {
+            display: none;
+        }
+    }
+}
+
+@media (--viewport-sm) {
+    .main-page {
+        & .contacts-section {
+            &__definition-list {
+                text-align: left;
+            }
+        }
+    }
+}

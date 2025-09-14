@@ -1,0 +1,88 @@
+{
+    "Header": {
+        "aboutUs": "About us",
+        "products": "Products",
+        "contact": "Contact",
+        "realizations": "Realizations",
+        "pl": "Polish",
+        "en": "English"
+    },
+    "MainPage": {
+        "title": "ELEKTROSVIT",
+        "subtitle": "A COMBINATION OF EXPERIENCE AND INNOVATION IN ELECTRIC ENERGY DISTRIBUTION",
+        "description": "A leading Ukrainian manufacturer of <br/> transformer stations and MV and LV switchgears. <br/> Full range of services – from design to installation.",
+        "seeMore": "See more",
+        "missionTitle": "ELEKTROSVIT MISSION",
+        "missionDescription": "We provide the flow of energy for a balanced future. A team driven by innovation!",
+        "ourProducts": "OUR PRODUCTS AND SERVICES",
+        "products": "PRODUCTS",
+        "ourTeam": "OUR TEAM",
+        "teamGoal": "The strength of ELEKTROSVIT is an experienced management team that has been developing energy in Europe and beyond for years:",
+        "ourTeamPoland": "ELEKTROSVIT team in Poland:",
+        "ourStrength": "OUR PARTNERS ARE OUR STRENGTH",
+        "hero-banner": "/hero_pl.svg",
+        "partners-banner": "our-partners_pl.svg",
+        "contactTitle": "CONTACT",
+        "contactSubtitle": "ELEKTROSVIT",
+        "contactSubtitleCrumbs": "Ltd.",
+        "linkedin": "https://www.linkedin.com/company/elektrosvit-pl/",
+        "facebook": "https://www.facebook.com/share/17Dn3nXgkA/?mibextid=wwXIfr",
+        "CEO": "Chief Executive Officer",
+        "CEOinfo": "Piotr Podlaszewski <br/> Chief Executive Officer ELEKTROSVIT Ltd.",
+        "CEOmail": "piotr.podlaszewski@elektrosvit.pl",
+        "service": "Equipment service",
+        "serviceMail": "serwis@elektrosvit.pl"
+    },
+    "AboutPage": {
+        "title": "ABOUT US",
+        "step_2002": "A company selling electrical components is founded",
+        "step_2003": "ELEKTROSVIT becomes an official partner of Schneider Electric. Own production begins.",
+        "step_2008": "Delivery of the first transformer station in a concrete enclosure",
+        "step_2012": "The first own brands created: GALSET and COMBIFLEX",
+        "step_2019": "Construction of the most modern switchgear and transformer station factory in Ukraine",
+        "descr_left_1": "ELEKTROSVIT – a leader in innovative power engineering solutions. For over 20 years we have been delivering switchgear devices and transformer stations that ensure stable and safe energy transmission.",
+        "descr_left_2": "As a general contractor, we carry out investments in distribution energy, photovoltaics, industry, and infrastructure – from design, through production, to installation.",
+        "descr_left_3": "Our quality and environmental management systems have obtained ISO 9001:2015 and ISO 14001:2015 certifications.",
+        "descr_right_1": "We were the first to introduce concrete transformer stations to the Ukrainian market, becoming the undisputed leader in this segment.",
+        "descr_right_2": "Our products are used by clients in Poland, Sweden, Slovakia, the Netherlands, the Baltic countries, and Moldova.",
+        "descr_right_3": "We have implemented RES installations with a total capacity of over 2 GW – proof of our experience and the reliability of our products. <br/> In Poland, more than 100 transformer stations of our production are already operating.",
+        "ourFactory": "OUR FACTORY"
+    },
+    "ProductsPage": {
+        "title": "PRODUCTS"
+    },
+    "RealizationsPage": {
+        "title": "REALIZATIONS",
+        "filters": "Filters"
+    },
+    "Features": {
+        "more": "more",
+        "search": "Search",
+        "choose": "Address",
+        "noResults": "No result",
+        "selectAll": "Select all",
+        "clear": "Clear"
+    },
+    "Seo": {
+        "mainPage": {
+            "title": "ELEKTROSVIT - Reliable Manufacturer of Electrical Equipment and EPC Contractor",
+            "description": "ELEKTROSVIT is a trusted manufacturer and EPC contractor providing high-quality electrical equipment, specializing in transformer substations, switchgears, and renewable energy projects.",
+            "keywords": "ELEKTROSVIT, electrical equipment, EPC contractor, transformer substations, switchgears, renewable energy, distribution grid, high-quality equipment"
+        },
+        "aboutPage": {
+            "title": "About ELEKTROSVIT - Leading Electrical Equipment Manufacturer",
+            "description": "Learn about ELEKTROSVIT, a trusted provider of electrical equipment and EPC services. With years of expertise, we lead in transformer substations, switchgears, and renewable energy solutions.",
+            "keywords": "ELEKTROSVIT, electrical equipment, about us, transformer substations, switchgears, renewable energy, EPC services, industry leader"
+        },
+        "realizationsPage": {
+            "title": "ELEKTROSVIT Projects - Electrical Infrastructure and Renewable Energy",
+            "description": "Explore ELEKTROSVIT's projects, showcasing expertise in electrical infrastructure, renewable energy installations, and industrial solutions worldwide.",
+            "keywords": "ELEKTROSVIT projects, electrical infrastructure, renewable energy, industrial solutions, global projects"
+        },
+        "productsPage": {
+            "title": "ELEKTROSVIT Products - High-Quality Electrical Equipment and Switchgears",
+            "description": "Browse ELEKTROSVIT's product range, offering top-quality electrical equipment, switchgears, and transformer substations for diverse applications.",
+            "keywords": "ELEKTROSVIT products, electrical equipment, switchgears, transformer substations, high-quality products"
+        }
+    }
+}

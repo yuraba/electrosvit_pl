@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Sergiy Bykov",
+        "position": "CEO, co-founder, 20+ years of experience in the energy sector",
+        "image": "/CEO.svg"
+    },
+    {
+        "name": "Oleg Neshcheret",
+        "position": "Director of Marketing and Sales, specialist in foreign market development",
+        "image": "/marketing_director.svg"
+    },
+    {
+        "name": "Oleksandr Kontrakevych",
+        "position": "Chief Financial Officer, expert in financial management and investment structures",
+        "image": "/finance_director.svg"
+    },
+    {
+        "name": "Andrii Shtohryn",
+        "position": "Director of Production and Service, responsible for quality and technological innovation",
+        "image": "/product_director.svg"
+    },
+    {
+        "name": "Yurii Semkovych",
+        "position": "Head of Production Department, 15+ years of practice in power engineering projects",
+        "image": "/production_manager.svg"
+    },
+    {
+        "name": "Natalia Krasiuk",
+        "position": "Marketing and Sales Manager, supporting clients in Poland and Europe",
+        "image": "/marketing_manager.svg"
+    }
+]

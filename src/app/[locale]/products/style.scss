@@ -1,0 +1,36 @@
+.products {
+    padding: 64px 260px 190px;
+
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        margin-top: 36px;
+        gap: 36px;
+    }
+}
+
+@media (--viewport-xl) {
+    .products {
+        padding: 44px 190px 140px;
+    }
+}
+
+@media (--viewport-lg) {
+    .products {
+        padding: 30px 70px 100px;
+    }
+}
+
+@media (--viewport-md) {
+    .products {
+        padding: 18px 36px;
+
+        &__list {
+            display: flex;
+            flex-direction: column;
+            margin-top: 36px;
+            gap: 24px;
+        }
+    }
+}
