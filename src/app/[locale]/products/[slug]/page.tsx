@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import { getProductBySlug } from '@/lib/products';
 import { notFound } from 'next/navigation';
-import { getLocale } from 'next-intl/server';
+import { getLocale, getTranslations } from 'next-intl/server';
 import type { Locale } from '@/i18n/navigation';
 import MediaCarousel from '@/features/MediaCarousel';
 import { Button } from '@/components/ui/button';
@@ -30,8 +30,14 @@ export async function generateMetadata({
 const ProductPage = async ({ params }: { params: Promise<any> }) => {
     const { slug } = await params;
     const locale = (await getLocale()) as Locale;
+    const t = await getTranslations('ProductsPage');
 
     const product = getProductBySlug(locale, slug);
+
+    const fileName = (path: string) => {
+        let name = path.split('/');
+        return name[name.length - 1].replaceAll('_', ' ');
+    };
 
     if (!product) return notFound();
     return (
@@ -54,22 +60,12 @@ const ProductPage = async ({ params }: { params: Promise<any> }) => {
             </section>
 
             <div className="product-page__downloads">
-                <Button variant="outline">
-                    Przesylanie plikow
-                    <Download />
-                </Button>
-                <Button variant="outline">
-                    Przesylanie plikow
-                    <Download />
-                </Button>
-                <Button variant="outline">
-                    Przesylanie plikow
-                    <Download />
-                </Button>
-                <Button variant="outline">
-                    Przesylanie plikow
-                    <Download />
-                </Button>
+                {product.filesList.map((file) => (
+                    <a key={file} href={file} download>
+                        {fileName(file)}
+                        <Download />
+                    </a>
+                ))}
             </div>
         </article>
     );
