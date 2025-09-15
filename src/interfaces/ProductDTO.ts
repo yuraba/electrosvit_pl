@@ -3,4 +3,7 @@ export interface ProductDTO {
     image: string;
     badge: string;
     slug: string;
+    type: string;
+    filesList?: string[]
+    imagesList?: string[]
 }
