@@ -2,9 +2,14 @@
     {
         "name": "Rozdzielnice nN – LVS, COMBIFLEX, BLOKSET",
         "description": "ELEKTROSVIT produkuje rozdzielnice nN zgodnie z dokumentacją elektryczną, wymiarami i wymaganiami Klienta. Nasze rozwiązania obejmują cały proces – od projektu, przez wykonanie, aż po instalację. Dzięki temu oferujemy rozdzielnice „szyte na miarę”, gwarantujące niezawodną pracę i optymalny koszt inwestycji. <br/><br/><strong>LVS – urządzenia dystrybucyjne</strong> <br/> Kompaktowe i ekonomiczne rozdzielnice bezpiecznikowe listwowe, idealne do miejskich sieci elektroenergetycznych: <br/> •  znaczna oszczędność miejsca (gabaryty mniejsze nawet o 50%), <br/> •  niezawodność dzięki zastosowaniu aparatury APATOR, Pronutec, Wöhner i innych sprawdzonych producentów, <br/> •  szyny wykonane z miedzi, możliwość podłączania kabli Cu i Al o dużych przekrojach. <br/><br/><strong>COMBIFLEX – uniwersalne rozdzielnice nN</strong> <br/>Elastyczne rozwiązanie o prądach do 4000 A, zaprojektowane z myślą o wysokiej niezawodności: <br/> •  dobór aparatów zabezpieczeniowych i rozdzielczych renomowanych producentów, <br/> •  możliwość zastosowania szyn miedzianych lub aluminiowych, <br/> •  konstrukcja stalowa (czerniona/galwanizowana) z powłoką proszkową, <br/> •  system szyn pionowych i poziomych zapewniający równomierny rozpływ prądów. <br/><br/><strong>BLOKSET – system modułowy</strong> <br/> •  najbardziej zaawansowany system rozdzielnic nN, dla prądów do 7000 A: <br/> •  modułowa budowa umożliwia konfigurację od prostych do najbardziej złożonych układów, <br/> •  pełna kompatybilność z aparaturą Schneider Electric, <br/> •  zgodność ze standardem PN-EN 60439-1, potwierdzająca najwyższy poziom bezpieczeństwa i jakości.",
-        "image": "/products/nn_switchgears.svg",
+        "image": "/products/nn_switchgears.png",
         "badge": "Producty",
         "slug": "nn",
+        "type": "nn",
+        "filesList": [
+            "/pdf/nn/COMBIFLEX_reference_list.pdf",
+            "/pdf/nn/LVS_reference_list.pdf"
+        ],
         "imagesList": [
             "/products/nn_switchgears/1.png",
             "/products/nn_switchgears/2.png",
@@ -15,15 +20,19 @@
             "/products/nn_switchgears/7.png",
             "/products/nn_switchgears/8.png",
             "/products/nn_switchgears/9.png",
-            "/products/nn_switchgears/10.png"
+            "/products/nn_switchgears/10.png",
+            "/products/nn_switchgears/11.png",
+            "/products/nn_switchgears/12.png"
         ]
     },
     {
         "name": "GALBOX - betonowe stacje transformatorowe, rozdzielcze i złącza kablowe",
         "description": "Stacje transformatorowe GALBOX to prefabrykowane rozwiązania w obudowie betonowej, projektowane i wykonywane zgodnie z indywidualnymi wymaganiami Klienta. Na podstawie schematów elektrycznych, oczekiwanych wymiarów i specyfiki inwestycji dostarczamy kompletne urządzenia – od projektu, przez produkcję, po instalację. <br/><br/>Stacje GALBOX przeszły w niezależnym laboratorium sieci ILAC rygorystyczne badania na zgodność z normami IEC. Między innymi próby łukochronności dla dostępu A i B 20kA/1s. Potwierdzają to posiadane przez nas certyfikaty niezależnych jednostek certyfikujących. <br/><br/>Obudowy GALBOX powstają z betonu najwyższej jakości, klasy C30/C37 i przy zastosowaniu nowoczesnych technologii, co gwarantuje: <br/>  •  wysoką wytrzymałość mechaniczną i odporność na warunki atmosferyczne, <br/>  •  pełne bezpieczeństwo obsługi, <br/>  •  wykonanie wszystkich elementów z materiałów niepalnych. <br/><br/><strong>Korzyści dla Klienta:</strong> <br/>  •  krótszy czas realizacji i niższe koszty dzięki dostawie gotowego do eksploatacji produktu, <br/>  •  oszczędność powierzchni dzięki zoptymalizowanym gabarytom – szczególnie istotna w nowoczesnej urbanistyce, <br/>  •  szeroki wybór wykończeń i kolorów umożliwia harmonijne dopasowanie stacji do otoczenia, <br/>  •  własnej produkcji stolarka aluminiowa lub stalowa cynkowana i malowana proszkowo gwarantuje odporność na korozję;  <br/>  •  unikalna technologia skraca czas produkcji i dostawy, <br/>  •  łatwiejszy odbiór i uruchomienie instalacji. <br/><br/>Dwa typy GALBOX: <br/><br/><strong>STANDARD</strong> – konstrukcja złożona z piwnicy, korpusu i dachu, <br/><br/><strong>KOMPAKT</strong> – korpus odlewany razem z piwnicą oraz dach. <br/><br/>Oba typy dostępne są w wersji z obsługą od wewnątrz lub od zewnątrz, co pozwala dopasować stację do specyfiki inwestycji i wymagań operatora.",
-        "image": "/products/GALBOX.svg",
+        "image": "/products/GALBOX.png",
         "badge": "Producty",
         "slug": "galbox",
+        "type": "galbox",
+        "filesList": ["pdf/galbox/GALBOX_Catalogue_PL.pdf"],
         "imagesList": [
             "/products/galbox/1.png",
             "/products/galbox/2.png",
@@ -38,19 +47,22 @@
             "/products/galbox/11.png",
             "/products/galbox/12.png",
             "/products/galbox/13.png",
-            "/products/galbox/14.png",
-            "/products/galbox/15.png",
-            "/products/galbox/16.png",
-            "/products/galbox/17.png",
-            "/products/galbox/18.png"
+            "/products/galbox/14.png"
         ]
     },
     {
         "name": "Rozdzielnice SN do 36 kV – GALFIX i GALSET",
         "description": "ELEKTROSVIT produkuje rozdzielnice średniego napięcia do 36 kV, obejmujące pełną gamę pól funkcjonalnych, do stworzenia dowolnej konfiguracji: GALFIX (wtórny rozdział energii) oraz GALSET (pierwotny rozdział energii). Nasze rozwiązania powstają w oparciu o dokumentację elektryczną i indywidualne potrzeby Klienta.<br/> <br/> Rozdzielnice ELEKTROSVIT wykonywane są bez użycia gazu SF₆, co czyni je przyjaznymi dla środowiska i zgodnymi z najnowszymi trendami w elektroenergetyce. Dzięki pełnemu zakresowi usług – od projektu, przez produkcję, po instalację – oferujemy optymalne, „szyte na miarę” rozwiązania techniczne.<br/> <br/> Każde pole podlega kontroli jakości na wszystkich etapach wytwarzania, co zapewnia niezawodność działania i bezpieczeństwo obsługi.<br/> <br/> <strong>GALFIX</strong><br/>  •  pełna gama pól funkcjonalnych na napięcie do 24 kV i prąd do 630 A, prąd zwarciowy oraz łukochronność 20kA/1s AFL<br/>  •  wyposażenie w wyłączniki próżniowe wiodących światowych producentów,<br/>  •  łatwy dostęp do listew zaciskowych zabezpieczeń i automatyki, umożliwiający prostą integrację w systemach monitoringu i sterowania.<br/>  •  przebadane w niezależnym, akredytowanym laboratorium sieci ILAC, co potwierdza certyfikat polskiej, niezależnej jednostki certyfikującej<br/> <br/> <strong>GALSET</strong><br/>  •  pola z wyłącznikiem wysuwnym na napięcie do 36 kV i prąd do 3150 A,<br/>  •  innowacyjny mechanizm wysuwu z napędem silnikowym – możliwość zdalnej obsługi,<br/>  •  konstrukcja z wysokiej jakości stali cynkowanej, odpornej na korozję,",
-        "image": "/products/sn_switchgears.svg",
+        "image": "/products/sn_switchgears.png",
         "badge": "Producty",
         "slug": "sn",
+        "type": "sn",
+        "filesList": [
+            "/pdf/sn/DOKUMENTACJA_TECHNICZNO–RUCHOWA.pdf",
+            "/pdf/sn/GALFIX_DTR.pdf",
+            "/pdf/sn/GALFIX-24_catalogue.pdf"
+        ],
+
         "imagesList": [
             "/products/sn_switchgears/1.png",
             "/products/sn_switchgears/2.png",
@@ -61,23 +73,17 @@
             "/products/sn_switchgears/7.png",
             "/products/sn_switchgears/8.png",
             "/products/sn_switchgears/9.png",
-            "/products/sn_switchgears/10.png",
-            "/products/sn_switchgears/11.png",
-            "/products/sn_switchgears/12.png",
-            "/products/sn_switchgears/13.png",
-            "/products/sn_switchgears/14.png",
-            "/products/sn_switchgears/15.png",
-            "/products/sn_switchgears/16.png",
-            "/products/sn_switchgears/17.png",
-            "/products/sn_switchgears/18.png"
+            "/products/sn_switchgears/10.png"
         ]
     },
     {
         "name": "GALFRAME - metalowe stacje transformatorowe i stacje rozdzielcze",
         "description": "Stacje transformatorowe GALBOX to prefabrykowane rozwiązania w obudowie betonowej, projektowane i wykonywane zgodnie z indywidualnymi wymaganiami Klienta. Na podstawie schematów elektrycznych, oczekiwanych wymiarów i specyfiki inwestycji dostarczamy kompletne urządzenia – od projektu, przez produkcję, po instalację. Stacje GALBOX przeszły w niezależnym laboratorium sieci ILAC rygorystyczne badania na zgodność z normami IEC. Między innymi próby łukochronności dla dostępu A i B 20kA/1s. Potwierdzają to posiadane przez nas certyfikaty niezależnych jednostek certyfikujących. <br/> <br/> Obudowy GALBOX powstają z betonu najwyższej jakości, klasy C30/C37 i przy zastosowaniu nowoczesnych technologii, co gwarantuje: <br/> •  wysoką wytrzymałość mechaniczną i odporność na warunki atmosferyczne, <br/>  •  pełne bezpieczeństwo obsługi, <br/>  •  wykonanie wszystkich elementów z materiałów niepalnych. <br/><br/><strong> Korzyści dla Klienta: </strong> <br/>  •  krótszy czas realizacji i niższe koszty dzięki dostawie gotowego do eksploatacji produktu, <br/>  •  oszczędność powierzchni dzięki zoptymalizowanym gabarytom – szczególnie istotna w nowoczesnej urbanistyce, <br/>  •  szeroki wybór wykończeń i kolorów umożliwia harmonijne dopasowanie stacji do otoczenia, <br/>  •  własnej produkcji stolarka aluminiowa lub stalowa cynkowana i malowana proszkowo gwarantuje odporność na korozję;  <br/>  •  unikalna technologia skraca czas produkcji i dostawy, <br/>  •  łatwiejszy odbiór i uruchomienie instalacji. <br/><br/><strong>Dwa typy GALBOX:</strong> <br/> STANDARD – konstrukcja złożona z piwnicy, korpusu i dachu, <br/> KOMPAKT – korpus odlewany razem z piwnicą oraz dach. <br/> Oba typy dostępne są w wersji z obsługą od wewnątrz lub od zewnątrz, co pozwala dopasować stację do specyfiki inwestycji i wymagań operatora.",
-        "image": "/products/GALFRAME.svg",
+        "image": "/products/GALFRAME.png",
         "badge": "Producty",
         "slug": "galframe",
+        "type": "galframe",
+        "filesList": ["pdf/galframe/GALFRAME_reference_list.pdf"],
         "imagesList": [
             "/products/galframe/1.png",
             "/products/galframe/2.png",
@@ -87,7 +93,10 @@
             "/products/galframe/6.png",
             "/products/galframe/7.png",
             "/products/galframe/8.png",
-            "/products/galframe/9.png"
+            "/products/galframe/9.png",
+            "/products/galframe/10.png",
+            "/products/galframe/11.png",
+            "/products/galframe/12.png"
         ]
     }
 ]
