@@ -13,18 +13,20 @@ type FiltersProps = {
 
 const Filters = ({ options, setOptions }: FiltersProps) => {
     const t = useTranslations('RealizationsPage');
+    const f = useTranslations('Features');
     const [firstRender, setFirstRender] = useState(true);
     const [value, setValue] = useState<string[]>([]);
+    const values = new Set(options.map((o) => o.type));
 
-    const optionsList: MultiSelectOption[] = options.map((opt) => ({
-        value: opt.slug,
-        label: opt.name,
+    const optionsList: MultiSelectOption[] = [...values].map((type) => ({
+        value: type,
+        label: f(type),
     }));
 
     useEffect(() => {
         if (!firstRender) {
             if (value.length > 0) {
-                const filtered = options.filter((o) => value.includes(o.slug));
+                const filtered = options.filter((o) => value.includes(o.type));
                 setOptions(filtered);
             } else {
                 setOptions(options);
@@ -32,14 +34,13 @@ const Filters = ({ options, setOptions }: FiltersProps) => {
         } else {
             setFirstRender(false);
         }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [value]);
 
     return (
         <MultiSelect
             icon={<Funnel className="text-[var(--green-color)]" />}
             className="realizations__filter"
-            selectAll
             options={optionsList}
             value={value}
             onChange={setValue}
