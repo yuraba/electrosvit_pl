@@ -20,7 +20,7 @@
         "teamGoal": "The strength of ELEKTROSVIT is an experienced management team that has been developing energy in Europe and beyond for years:",
         "ourTeamPoland": "ELEKTROSVIT team in Poland:",
         "ourStrength": "OUR PARTNERS ARE OUR STRENGTH",
-        "hero-banner": "/hero_pl.svg",
+        "hero-banner": "/hero_en.svg",
         "partners-banner": "our-partners_pl.svg",
         "contactTitle": "CONTACT",
         "contactSubtitle": "ELEKTROSVIT",
@@ -49,7 +49,8 @@
         "ourFactory": "OUR FACTORY"
     },
     "ProductsPage": {
-        "title": "PRODUCTS"
+        "title": "PRODUCTS",
+        "downloadFile": "Download file"
     },
     "RealizationsPage": {
         "title": "REALIZATIONS",
@@ -61,7 +62,11 @@
         "choose": "Address",
         "noResults": "No result",
         "selectAll": "Select all",
-        "clear": "Clear"
+        "clear": "Clear",
+        "sn": "Switchgear Sn",
+        "nn": "Switchgear NN",
+        "galbox": "Galbox",
+        "galframe": "Galframe"
     },
     "Seo": {
         "mainPage": {
