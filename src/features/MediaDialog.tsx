@@ -1,8 +1,7 @@
 'use client';
-import '@/css/media-dialog.scss';
 
 import Image from 'next/image';
-
+import clsx from 'clsx';
 import {
     Dialog,
     DialogContent,
@@ -10,6 +9,7 @@ import {
     DialogTitle,
     DialogTrigger,
 } from '@/components/ui/dialog';
+import '@/css/media-dialog.scss';
 
 interface MediaDialogProps {
     alt: string;
@@ -28,6 +28,7 @@ const MediaDialog = ({
     imageHeight,
     className,
 }: MediaDialogProps) => {
+    
     return (
         <Dialog open={isOpen}>
             <DialogTrigger asChild>
@@ -43,7 +44,7 @@ const MediaDialog = ({
                 <DialogTitle></DialogTitle>
             </DialogHeader>
             <DialogContent className="media-dialog">
-                <Image src={imageUrl} fill alt={alt} />
+                <Image src={imageUrl} width={1124} height={1124} alt={alt} />
             </DialogContent>
         </Dialog>
     );

@@ -95,9 +95,9 @@ const MediaCarousel = ({
                     <MediaDialog
                         key={i}
                         imageUrl={imageUrl}
-                        imageWidth={925}
-                        imageHeight={910}
-                        className="m-auto rounded-xl aspect-[2/1] object-cover"
+                        imageWidth={924}
+                        imageHeight={924}
+                        className="m-auto rounded-xl aspect-[1/1] object-cover"
                         alt="factory photo"
                     />
                 ))}

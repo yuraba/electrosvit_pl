@@ -23,7 +23,6 @@ export async function generateMetadata() {
 const ProductsPage = async () => {
     const t = await getTranslations('ProductsPage');
     const locale = (await getLocale()) as Locale;
-
     const products = getProducts(locale);
 
     return (
@@ -31,24 +30,29 @@ const ProductsPage = async () => {
             <h1 className="title text-center font-semibold">{t('title')}</h1>
 
             <section className="products__list">
-                {products.map((p: ProductDTO) => (
-                    <Link
-                        className="product-wrapper"
-                        key={p.name}
-                        href={{
-                            pathname: '/products/[slug]',
-                            params: { slug: p.slug },
-                        }}
-                    >
-                        <ProductCard
-                            name={p.name}
-                            badge={p.badge}
-                            imageUrl={p.image}
-                            imageWidth={720}
-                            imageHeight={588}
-                        />
-                    </Link>
-                ))}
+                {products.map((p: ProductDTO) => {
+                    const previewPhoto = p?.imagesList
+                        ? p?.imagesList[0]
+                        : p.image;
+                    return (
+                        <Link
+                            className="products__wrapper"
+                            key={p.name}
+                            href={{
+                                pathname: '/products/[slug]',
+                                params: { slug: p.slug },
+                            }}
+                        >
+                            <ProductCard
+                                name={p.name}
+                                badge={p.badge}
+                                imageUrl={previewPhoto}
+                                imageWidth={720}
+                                imageHeight={588}
+                            />
+                        </Link>
+                    );
+                })}
             </section>
         </main>
     );

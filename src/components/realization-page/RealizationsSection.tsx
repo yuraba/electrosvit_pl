@@ -18,24 +18,29 @@ const RealizationsSection = ({ realizations }: RealizationsSectionProps) => {
             <Filters setOptions={setDataList} options={realizations} />
 
             <div className="realizations__list">
-                {dataList.map((r: ProductDTO) => (
-                    <Link
-                        className="product-wrapper"
-                        key={r.name}
-                        href={{
-                            pathname: '/realizations/[slug]',
-                            params: { slug: r.slug },
-                        }}
-                    >
-                        <ProductCard
-                            name={r.name}
-                            badge={r.badge}
-                            imageUrl={r.image}
-                            imageWidth={580}
-                            imageHeight={480}
-                        />
-                    </Link>
-                ))}
+                {dataList.map((r: ProductDTO) => {
+                    const previewPhoto = r?.imagesList
+                        ? r?.imagesList[0]
+                        : r.image;
+                    return (
+                        <Link
+                            className="product-wrapper"
+                            key={r.name}
+                            href={{
+                                pathname: '/realizations/[slug]',
+                                params: { slug: r.slug },
+                            }}
+                        >
+                            <ProductCard
+                                name={r.name}
+                                badge={r.badge}
+                                imageUrl={r.image}
+                                imageWidth={580}
+                                imageHeight={480}
+                            />
+                        </Link>
+                    );
+                })}
             </div>
         </section>
     );

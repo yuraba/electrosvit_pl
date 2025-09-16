@@ -1,10 +1,12 @@
 import TeamCarousel from '@/features/TeamCarousel';
-import { getTranslations } from 'next-intl/server';
+import { getLocale, getTranslations } from 'next-intl/server';
 import { getTeam, getTeamPoland } from '@/lib/team';
+import { Locale } from '@/i18n/navigation';
 const TeamSection = async () => {
     const t = await getTranslations('MainPage');
-    const team = getTeam('pl');
-    const teamPoland = getTeamPoland('pl');
+    const locale = (await getLocale()) as Locale;
+    const team = getTeam(locale);
+    const teamPoland = getTeamPoland(locale);
 
     return (
         <section className="team-section">
@@ -15,9 +17,14 @@ const TeamSection = async () => {
 
             <TeamCarousel list={team} className="team-section__carousel" />
 
-            <h2 className="title mt-[120px] text-center">{t('ourTeamPoland')}</h2>
+            <h2 className="title mt-[120px] text-center">
+                {t('ourTeamPoland')}
+            </h2>
 
-            <TeamCarousel list={teamPoland} className="team-section__carousel" />
+            <TeamCarousel
+                list={teamPoland}
+                className="team-section__carousel"
+            />
         </section>
     );
 };
