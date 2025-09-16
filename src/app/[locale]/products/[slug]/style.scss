@@ -44,8 +44,28 @@
         grid-column: 2 / 3;
     }
 
-    &__downloads button {
-        border: 1px solid var(--green-color);
+    &__downloads {
+        & a {
+            width: 100%;
+            cursor: pointer;
+            border: 1px solid var(--green-color);
+            border-radius: var(--radius-sm);
+            background-color: white;
+            padding: 8px 25px 8px 12px;
+            white-space: nowrap;
+            position: relative;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        & svg {
+            position: absolute;
+            right: 0;
+            top: 0;
+            transform: translate(-20%, 30%);
+            background: white;
+            padding: 2px;
+        }
     }
 }
 

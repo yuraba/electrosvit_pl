@@ -3,10 +3,11 @@
     min-width: 90%;
     max-width: 90%;
     border-radius: 24px;
-    overflow: hidden;
+    overflow: scroll;
+    padding: 1px;
 
     & img {
         object-fit: cover;
-
+        position: unset !important;
     }
 }
