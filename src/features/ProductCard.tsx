@@ -28,7 +28,7 @@ const ProductCard = ({
     return (
         <div className={`product-card ${className}`}>
             <Image
-                className="rounded-xl"
+                className="rounded-xl object-cover"
                 src={imageUrl}
                 alt={name}
                 width={imageWidth}

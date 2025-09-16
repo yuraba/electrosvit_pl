@@ -58,6 +58,9 @@
 
     &__media-carousel {
         margin-top: 24px;
+        & img {
+            aspect-ratio: unset;
+        }
     }
 
     &__footer {
